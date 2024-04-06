@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 04 Apr 2024 pada 12.46
+-- Waktu pembuatan: 06 Apr 2024 pada 17.46
 -- Versi server: 10.1.38-MariaDB
 -- Versi PHP: 7.3.3
 
@@ -44,10 +44,13 @@ CREATE TABLE `roti` (
 --
 
 INSERT INTO `roti` (`idRoti`, `namaRoti`, `rasaRoti`, `diameter`, `tinggi`, `topping`, `harga`, `gambar`) VALUES
-(28, 'bolu', 'vanilla', '15cm', '5', 'strawberry,lilin', 20000, 'beach.jpg'),
-(30, 'ulang tahun', 'coklat', '15cm', '1', 'strawberry,lilin', 20, 'Happy Birthday 1.jpg'),
-(32, 'semangka', 'coklat', '10cm', '2', 'strawberry', 21, 'Semangka Naga.jpg'),
-(43, 'kleponn', 'vanilla', '15cm', '2', 'strawberry,lilin', 50, '64fa7899edc0b.jpeg');
+(28, 'Bialy', 'vanilla', '15cm', '5', 'strawberry,bunga', 20, 'ROTI BIALYS_divyascookbook_com.jpg'),
+(30, 'Bolillo / Pan blanco', 'coklat', '15cm', '1', 'strawberry,lilin', 20, 'ROTI BOLILLO_artimexbakery_com.jpg'),
+(32, ' Breadsticks', 'coklat', '10cm', '2', 'strawberry', 21, 'ROTI GRISSINI_blog_foods_com.jpg'),
+(43, 'Brioche', 'vanilla', '15cm', '2', 'strawberry,lilin', 50, 'ROTI BRIOCHE_finecooking_com.jpg'),
+(44, 'Challah', 'strawberry', '15cm', '5', 'strawberry,lilin', 20, 'ROTI CHALLAH_versatilekitcehn_com.jpg'),
+(50, 'Ciabatta', 'coklat', '15cm', '2', 'strawberry,bunga', 21, 'ROTI CIABATTA_resepdunia_blogspot_com.jpg'),
+(51, 'Bagel', 'vanilla', '10cm', '2', 'strawberry', 20, 'ROTI BAGEL_damascusbakery_com.jpg');
 
 --
 -- Indexes for dumped tables
@@ -67,7 +70,7 @@ ALTER TABLE `roti`
 -- AUTO_INCREMENT untuk tabel `roti`
 --
 ALTER TABLE `roti`
-  MODIFY `idRoti` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=44;
+  MODIFY `idRoti` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=52;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
